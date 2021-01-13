@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main_retrai_fr2" prefHeight="310.0" prefWidth="540.0" style="-fx-background-color: #006A7D;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxml_atm.FXML_autre_frController">
+   <children>
+      <ImageView fitHeight="262.0" fitWidth="318.0" layoutX="14.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Sans%20titre.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="342.0" layoutY="7.0" prefHeight="298.0" prefWidth="190.0" style="-fx-background-color: #004F5E;">
+         <children>
+            <TextField fx:id="valeur_R" layoutX="22.0" layoutY="67.0" opacity="0.99" prefHeight="42.0" prefWidth="147.0" promptText="Valeur envoyée">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="13.0" layoutY="25.0" prefHeight="35.0" prefWidth="164.0" text="Enter votre valeur SVP" textFill="#f2eeee">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="46.0" layoutY="186.0" mnemonicParsing="false" onAction="#Validation_retrai" prefHeight="48.0" prefWidth="98.0" text="Convertir">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="130.0" layoutY="259.0" mnemonicParsing="false" onAction="#retour_fr2" prefHeight="25.0" prefWidth="53.0" style="-fx-background-color: #F36868;" text="retour" />
+            <TextField fx:id="Num_compte_fr" layoutX="21.0" layoutY="149.0" />
+            <Label layoutX="21.0" layoutY="118.0" text="Numéro de compte" textFill="#f2eeee">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="label_compte2" layoutX="8.0" layoutY="242.0" prefHeight="17.0" prefWidth="179.0" textFill="#f51d1d" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

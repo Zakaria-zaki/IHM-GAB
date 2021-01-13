@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main_retrai5000_ar" prefHeight="316.0" prefWidth="540.0" style="-fx-background-color: #4A4A4A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxml_atm.Retrai5000_arController">
+   <children>
+      <ImageView fitHeight="174.0" fitWidth="383.0" layoutX="102.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="432.0" layoutX="89.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="382.0" layoutX="83.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Algerie_1998_1000DZD_1704735989_65462_071137_r_600dpi.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="233.0" layoutY="267.0" mnemonicParsing="false" onAction="#prendre5000_ar" prefHeight="39.0" prefWidth="94.0" text="اخــد">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

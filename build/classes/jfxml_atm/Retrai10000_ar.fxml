@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main_retrai10000_ar" prefHeight="316.0" prefWidth="540.0" style="-fx-background-color: #4A4A4A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxml_atm.Retrai10000_arController">
+   <children>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="86.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="86.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="86.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="86.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="86.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="241.0" layoutY="267.0" mnemonicParsing="false" onAction="#prendre_ar" prefHeight="34.0" prefWidth="68.0" text="اخـــد">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

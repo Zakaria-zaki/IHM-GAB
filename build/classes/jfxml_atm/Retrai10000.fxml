@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="main_retrai10000" prefHeight="316.0" prefWidth="540.0" style="-fx-background-color: #4A4A4A;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxml_atm.Retrai10000Controller">
+   <children>
+      <ImageView fitHeight="163.0" fitWidth="369.0" layoutX="110.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="368.0" layoutX="110.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="368.0" layoutX="110.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="368.0" layoutX="110.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="503.0" layoutX="110.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Banknote_Algerie_2011_2000DZD_0021428188_050015_07823_r.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="253.0" layoutY="263.0" mnemonicParsing="false" onAction="#prendre10000" prefHeight="36.0" prefWidth="82.0" text="prendre">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

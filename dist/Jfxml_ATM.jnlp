@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Jfxml_ATM.jnlp">
+  <information>
+    <title>Jfxml_ATM</title>
+    <vendor>msi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Jfxml_ATM.jar" size="2273089" download="eager" />
+    <jar href="lib\jdbc.jar" size="474964" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Jfxml_ATM" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jfxml_atm.Jfxml_insérer"  name="Jfxml_ATM" />
+  <update check="always"/>
+</jnlp>

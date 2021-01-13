@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="langue1" prefHeight="316.0" prefWidth="540.0" style="-fx-background-color: #006A7D;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jfxml_atm.LanguesController">
+   <children>
+      <AnchorPane layoutX="299.0" layoutY="5.0" prefHeight="307.0" prefWidth="232.0" style="-fx-background-color: #004F5E;">
+         <children>
+            <Button fx:id="arabe_ar" layoutX="52.0" layoutY="170.0" mnemonicParsing="false" onAction="#Arabe" prefHeight="25.0" prefWidth="128.0" text="العـــربيــــة ">
+               <font>
+                  <Font name="Algerian" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="Francais_fr" layoutX="52.0" layoutY="96.0" mnemonicParsing="false" onAction="#francais" prefHeight="25.0" prefWidth="128.0" text="Francais" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="287.0" fitWidth="292.0" layoutX="7.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/71215778-vecteur-de-paiement-atm-illustration-distributeur-automatique-de-billets-à-la-main-et-une-carte-de-crédi.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
